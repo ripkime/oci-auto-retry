@@ -2,8 +2,15 @@
   "name": "oci-auto-retry",
   "type": "module",
   "private": true,
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "oci-common": "^2.139.0",
+    "oci-core": "^2.139.0"
   }
 }
